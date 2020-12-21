@@ -1,0 +1,3 @@
+*.swp
+Dataset/
+__pycache__/
