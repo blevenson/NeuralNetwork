@@ -18,7 +18,9 @@ class NeuralNetwork:
         assert(self.num_layers - 1 == len(self.W))
 
     def train(self, X, y):
-        pass
+        for x, y_expected in zip(X, y):
+            print("training: ", x, y_expected)
+            
 
     def predict(self, X):
         prev_layer = X
